@@ -1,47 +1,27 @@
 body {
-    /* cor de fundo*/
-    background-color: #b795ca;
-    /* flexbox */
+    margin: 0; font-family: 'Segoe UI', sans-serif;
+    background-color: #e2e2e2; color: #333
+}
+.menu {
+    background-color: rgb(38, 38, 88);
+    padding: 15px 0;
+    position: sticky; /* menu fixo, sempre no topo */
+    top: 0; /* posição 0- posição acima */
+    z-index: 1000; /* fica sempre por cima dos outros conteudos */
+    box-shadow: 0 2px 10px black;
+}
+.menu-container {
+    max-width: 1000px;
+    margin: 0 auto;
     display: flex;
-    /* alinhamento na horizontal */
-    justify-content: center;
-    /* alinhamento na vertical */
+    justify-content: space-between;
     align-items: center;
-    /* ocupa a tela inteira verticalmente */
-    height: 100vh;
+    padding: 0 20px;
 }
-/* para referenciar o class usamos */
-/* usamos class para reutilizar estilos */
-.cartao {
-    background-color: #e1d0e7;
-    /* cantos arredondados */
-    border-radius: 10px;
-    /* espaçamento interno */
-    padding: 20px;
-    /* alinhamento do texto */
-    text-align: center;
-}
-.button {
-    /* sem borda */
-    border: none;
-    /* cor de fundo */
-    background-color: #3f2d8d;
-    /* cor do texto */
-    color: white;
-    /* cantos arredondados */
-    border-radius: 10px;
-    /* espaçamento interno */
-    padding: 10px 20px;
-    /* cria um cursor quando o mouse passa em cima */
-    cursor: pointer;
-}
-.imagem {
-    /* largura */
-    width: 120px;
-    /* altura */
-    height: 120px;
-    /* cantos arredondados */
-    border-radius: 50%;
-    /* borda colorida com expessura, tipo e cor */
-    border: 3px solid #250050 
+.menu-logo {
+    color:#333;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2rem;
+    text-transform: uppercase;
 }
