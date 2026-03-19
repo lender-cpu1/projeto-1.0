@@ -137,3 +137,47 @@ body {
     margin: 20px auto -20px;
     font-weight: bold;
 }
+section {
+  
+    background: white;
+    margin-bottom: 20px;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+.texto-introducao{
+    line-height: 1.6; /*melhora a leitura de texto longos*/
+    margin-bottom: 20px;
+    text-align: justify;
+}
+.lista-valores{
+    list-style: none;
+    padding: 0;
+}
+.lista-valores li{
+    background: #CBDCF7;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    border-left: 5px solid rgb(26, 26, 65);
+}
+table{
+    width: 100;
+    border-collapse: collapse; 
+    margin-top: 20px;
+    background-color: #ffffff;
+}
+th, td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+th{
+    background-color: #2e4c82;
+}
+.box-amarela{
+    width: 25px;
+    height: 25px;
+    border-radius: 4px;
+    background: yellow;
+}
