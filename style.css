@@ -161,23 +161,47 @@ section {
     border-radius: 8px;
     border-left: 5px solid rgb(26, 26, 65);
 }
-table{
-    width: 100;
-    border-collapse: collapse; 
-    margin-top: 20px;
-    background-color: #ffffff;
+table {
+    width: 100%; border-collapse: collapse; margin-top: 20px;
+    background-color: white;
 }
+
 th, td {
-    padding: 15px;
-    text-align: left;
-    border-bottom: 1px solid #ddd;
+    padding: 15px; text-align: left; border-bottom: 1px solid #ddd;
 }
-th{
-    background-color: #2e4c82;
+
+th {
+    background-color: #2a5298;
 }
-.box-amarela{
-    width: 25px;
-    height: 25px;
+
+.box-amarela {
+    width: 25px; height: 25px;
     border-radius: 4px;
     background: yellow;
+}
+.box-cinza {
+    width: 25px; height: 25px;
+    border-radius: 4px;
+    background: gray;
+}
+.itens {
+    background-color: #ffeec0;
+    padding: 15px;
+    border-style: dashed;
+    border: 2px dashed rgb(255, 187, 0);
+    border-radius: 10px;
+    text-align: left;
+}
+.suplementos {
+    padding: 20px 30px;
+    background-color: rgb(252, 221, 221);
+    border-left: red 5px solid;
+} 
+h4 {
+    color: #a1782b;
+}
+.memorias{
+    padding: 20px 30px;
+    background-color: rgb(250, 239, 205);
+    border-left: rgb(245, 200, 0) 5px solid;
 }
